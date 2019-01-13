@@ -20,6 +20,9 @@ export default class App extends Component {
   render() {
     return (
       <div className="App">
+        <h1>
+          <strong>UP TO 70% OFF !</strong>
+        </h1>
         <div className="App-title">Countdown to {this.state.deadline}</div>
         <Clock deadline={this.state.deadline} />
         {/* When inline = {true}, can be just inline in React*/}

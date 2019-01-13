@@ -1,11 +1,17 @@
 .App {
   text-align: center;
-  margin-top: 20%;
+  margin: 10% 15%;
+  padding: 5%;
   font-size: 35px;
+  border: 1px solid lightgrey;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px lightgrey;
+  background: linear-gradient(35deg, #e6509e, #0e83cd);
 }
 
 .App-title {
   font-size: 50px;
+  color: #ddf0fc;
 }
 
 .Clock-days,
@@ -13,6 +19,7 @@
 .Clock-minutes,
 .Clock-seconds {
   display: inline;
+  color: #ddf0fc;
 }
 
 .Deadline-input {
